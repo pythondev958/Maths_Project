@@ -1,0 +1,35 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment folder (ensure it's named 'venv' or whatever your virtualenv is named)
+venv/
+env/
+
+# IDE/editor files (e.g., PyCharm, VSCode)
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Flask-specific (if you have .env or other sensitive files)
+.env
+*.env
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Logs
+*.log
+
+# Configuration and database files
+*.sqlite3
+*.db
+
+# Downloaded and generated files
+downloads/
